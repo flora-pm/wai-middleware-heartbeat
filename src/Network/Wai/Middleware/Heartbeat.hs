@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Wai.Middleware.Heartbeat (heartbeatMiddleware) where
+module Network.Wai.Middleware.Heartbeat (heartbeatMiddleware) where
 
 import Network.HTTP.Types
 import Network.Wai

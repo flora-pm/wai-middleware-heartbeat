@@ -1,7 +1,7 @@
-cabal-version:      2.4
+cabal-version:      3.0
 name:               wai-middleware-heartbeat
 version:            0.0.1.0
-synopsis:           Heartbeat middleware for the Wai ecosystem
+synopsis:           Heartbeat middleware for the WAI ecosystem
 bug-reports:        https://github.com/flora-pm/wai-middleware-heartbeat
 license:            MIT
 author:             Théophile Choutri
@@ -11,7 +11,7 @@ extra-source-files:
   LICENSE
 
 library
-  exposed-modules:  Wai.Middleware.Heartbeat
+  exposed-modules:  Netowrk.Wai.Middleware.Heartbeat
   other-extensions: OverloadedStrings
   build-depends:
     , base        ^>=4.14.3.0
